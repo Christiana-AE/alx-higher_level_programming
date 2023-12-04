@@ -9,5 +9,3 @@ def new_in_list(my_list, idx, element):
         return cp
     else:
         return my_list
-
-
