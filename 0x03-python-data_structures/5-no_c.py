@@ -6,4 +6,3 @@ def no_c(my_string):
         if (i == 'C' or i == 'c'):
             continue
         emptyList += i
-    return emptyList
