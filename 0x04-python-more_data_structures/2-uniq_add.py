@@ -11,4 +11,3 @@ def uniq_add(my_list=[]):
     for i in range(len(new_array)):
         count += new_array[i]
     return count
- 
