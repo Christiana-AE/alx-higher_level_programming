@@ -110,3 +110,39 @@ You are not allowed to use var
 The function must be visible from outside
 The name of the function must be add
 You are not allowed to use var
+
+## Advanced
+
+100. Write a file that modifies the value of myVar to 333
+
+101. Write a function that executes x times a function.
+
+The function must be visible from outside
+Prototype: function (x, theFunction)
+You are not allowed to use var
+
+102. Write a function that increments and calls a function.
+
+The function must be visible from outside
+Prototype: function (number, theFunction)
+You are not allowed to use var
+
+103. Update this script by adding a new function incr that increments the integer value.
+
+You are not allowed to use var
+
+	#!/usr/bin/node
+	const myObject = {
+  	type: 'object',
+  	value: 12
+	};
+	console.log(myObject);
+	/*
+	YOUR CODE HERE
+	*/
+	myObject.incr();
+	console.log(myObject);
+	myObject.incr();
+	console.log(myObject);
+	myObject.incr();
+	console.log(myObject); 
